@@ -1,87 +1,86 @@
-# [Light Bootstrap Dashboard](http://www.creative-tim.com/product/light-bootstrap-dashboard)
-[![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
+Interactive Visualization of Top 2000 Companies Worldwide
+Introduction
+The Forbes Global 2000 is an annual ranking of the top 2,000 public companies in the world by Forbes magazine. The ranking is based on a mix of four metrics: sales, profit, assets and market value. The list has been published since 2003.
 
-![alt text](http://s3.amazonaws.com/creativetim_bucket/products/32/original/opt_lbd_thumbnail.jpg "Light Bootstrap Dashboard")
+The Forbes Global 2000 is a useful indicator of the leading public companies in the world, but it is only an interpretation, as only public companies are listed.
 
-Light Bootstrap Dashboard is an admin dashboard template designed to be beautiful and simple. It is built on top of Bootstrap 3 and it is fully responsive. It comes with a big collections of elements that will offer you multiple possibilities to create the app that best fits your needs. It can be used to create admin panels, project management systems, web applications backend, CMS or CRM.
+The 16th annual Forbes Global 2000 list includes publicly-traded companies from 60 countries. Collectively, the companies on this list account for $39.1 trillion in sales, $3.2 trillion in profit, $189 trillion in assets and $56.8 trillion in market value. All metrics are up double-digits year-over-year, with profits up an impressive 28%. For the first time since 2015, China and the U.S. split the top 10 evenly this year. China is home to 291 Global 2000 companies while the U.S. is on top with 560.
 
-The product represents a big suite of front-end developer tools that can help you jump start your project. We have created it thinking about things you actually need in a dashboard. Light Bootstrap Dashboard contains multiple handpicked and optimised plugins. Everything is designed to fit with one another. As you will be able to see, the dashboard you can access on Creative Tim is a customisation of this product.
+But the U.S. still dominates in terms of the amount of companies on the overall list, boasting almost 30% of the total. China and Hong Kong’s 291 companies are up from 262 in 2017. On the inaugural list in 2003, there were just 43 companies from China-Hong Kong. Meanwhile, Japan, the United Kingdom and South Korea also broke into the top five countries with the most companies.
 
-It comes with 6 filter colors for the sidebar (“black”, “azure”,”green”,”orange”,”red”,”purple”) and an option to have a background image.
+World's economy has been changing to another level due to advancements in technologies, that above stated stats are only for the year 2018, now imagine how are the sales and profits for 2 years or 3 years or 5 years. This Statistics about World's Largest Public Companies Motivated us to Choose this Topic to get more insights of Attributes such as assets, sales, profits and Market values of the Global Public companies through interactive Visualization.
 
-Special thanks go to:
-Robert McIntosh for the notification system
-Chartist for the wonderful charts
-We are very excited to share this dashboard with you and we look forward to hearing your feedback!
+Team Formation
+Firstly, we had to find members for ourselves to form a Group of 3-4 Students as suggested by our Dublin Business School professor, for the project while keeping in mind that these members would be working together as a Team for the final project. Therefore, it was necessary for each individual to get along from the start for the smooth processing of the project.
 
-## Links:
+Team Members
+Since We had to submit our team registration form by 17th March 2019, we had chosen our team and started working on the Project from 12th March 2019 itself.
+Our Four Team Members Include:
+Suraj Donthula 
+Mohit Kumar Mehandiratta
+Naveen Mali
+Anudeep Karivati
 
-+ [Live Preview](http://demos.creative-tim.com/light-bootstrap-dashboard)
-+ [Video Tutorial](https://www.youtube.com/watch?v=c3M3NQtFyqM)
-+ [Light Bootstrap Dashboard PRO](http://www.creative-tim.com/product/light-bootstrap-dashboard-pro) (from $39)
+Since this is a data visualisation module class assignment all group members are from the same class studying master’s in data Analytics from Dublin Business School.
 
-## Quick start
+As stated earlier, we initiated all the workings on our Project from 12th March 2019 and decided that the project should be completed within three weeks. Well before the deadline and two weeks in advance as our Focus was on designing a limited yet compelling visualization that enables interactive exploration along a few critical dimensions.
 
-Quick start options:
+Working
+Firstly, we started the project by dividing the total work into small individual tasks, following are the tasks involved
+1. Data Collection & Data Processing
+2. Selecting the tools
+3. Data Visualizations
+4. Creating Website and Embedding Visualisation
+5. Reporting & Deployment
 
-- [Download from Github](https://github.com/creativetimofficial/light-bootstrap-dashboard.git).
-- [Download from Creative Tim](http://www.creative-tim.com/product/light-bootstrap-dashboard).
-- Clone the repo: `git clone https://github.com/creativetimofficial/light-bootstrap-dashboard.git`.
+Since we are a group of 4 students, we have done some tasks together and some by dividing between us. The tasks done together are Topic Selection, Data Collection and Deployment. Other tasks were done individually by dividing among ourselves.
 
+A total of 45 days to complete the project, we as a group of four students dedicated an hour every day for the betterment of the project, and we also did a weekly group assessment for the progress of the project.
 
-### What's included
+Data Collection & Processing:
+The choice of the dataset was very important since we had to choose a dataset which gave us a tightly-focused, well-implemented interactive graphic and not just a sprawling design that attempts too much
 
-Within the download you'll find the following directories and files:
+One of the toughest parts was to collect the Forbes data, since there were many outliers in data. We got the raw data for every individual year and had to merge them together and clean them later in order to process the correct visualisations. And because of different and vast outliers, there was no easy way to fetch the data. We got our data from different datasets websites like Kaggle and UCI etc
 
-```
-x_lbd_free/
-├── assets/
-|   ├── css/
-|   ├── js/
-|   ├── fonts/
-|   └── img/
-├── dashboard.html
-├── CHANGELOG.md
-├── documentation
-├── icons.html
-├── maps.html
-├── notifications.html
-├── table.html
-├── template.html
-├── typography.html
-├── upgrade.html
-└── user.html
+After collecting the raw data individually, we went to the data processing stage where we had to compile all the different data together and start the cleaning of data, so that we could work on the varied yet precise visualisations.
 
-```
-### License
+Selecting the Tools:
+After the data processing stage, now it was time for selecting the appropriate visualisation tools for the project. Before performing visualizations in any tool or script, we thought about the deployment of the visualizations by embedding to website. Tableau is the only tool which can be embedded easily and is flexible for any modifications. In Tableau embedded views update as the underlying data changes, or as their workbooks are updated on Tableau Server or Tableau Online. Also, we had prior knowledge and experience with Tableau software plus the vast set of options and the varied ways of visualisations Tableau brings with it, we went ahead and chose Tableau as our go to tool for visualisation.
 
-- Copyright 2017 Creative Tim (http://www.creative-tim.com)
-- Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard/blob/master/LICENSE.md)
+Data Visualisations:
+Now we had a clean and processed dataset at hand and a suitable visualisation tool, all we had to do was to make the visualisations for it and that too interactive. As a group we check the dataset together and then shortlisted all the filters which we would require for the apt visualizations.
 
-## Useful Links
+Based on the dimensions we had in the dataset we agreed on that we need four filters for creating the visualizations. And we assigned each filter among ourselves. Each of the group member were to create individual and varied sheets\dashboards so that in the end we can compile them together and embed on the website.
 
-More products from Creative Tim: <http://www.creative-tim.com/products>
+Following are the filters/dimensions we have in the dataset
+1.	Continent
+2.	Country
+3.	Industry
+4.	Company
 
-Tutorials: <https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w>
+Continent-wise Number of top Companies
+We are using continents as a filter and the year. This has been possible by generating the longitudes and latitudes. We have used the continent dimension in columns. We can clearly select from the interactive visualisation by selecting the continents. There is also a bar to select the year. If we use this, then we can use this filter to see all the top companies in that particular year or even the cumulative number of companies of all the years selected. After selecting the continent and year we can see all the Top companies in that continent as small red circles. If we point the mouse pointer towards the circles, it displays us the total number of companies and the country along with the continent.
 
-Freebies: <http://www.creative-tim.com/products>
+Country-wise distribution of Sales and Profits
+For this visualisation our goal was to see the distribution of Sales and Profits. All the values are in Billions. This visualisation is very simple as well as informative to us as an audience. The filter which we used for this was taking was country and country wise sales and profits and arranged and accessible to view for any particular year we want as our ease. As mentioned earlier USA has the highest number of Sales and Profits every year and we can verify this statement by looking at this visualisation. This visualisation has three windows to display. There is a map, a window to show the sales and another to display the profits. This is very interactive as we an easily see the information which we want to see and filtered out and that too quickly.
 
-Affiliate Program (earn money): <http://www.creative-tim.com/affiliates/new>
+Industry-wise comparison of Assets, Market Value, Profits & Sales
+This visualisation was done taking the filter of Industry. Our goal was to summarise the and target the Assets, Market Value, Profits & Sales considering and considering the Top Five Industries since these are the most fruitful. For this also there are two windows accessible by a white arrow in the bottom right corner. We have shown all the Assets, Market Value, Profits & Sales by bar graphs. If we select the industry by pointing the mouse towards the industry and selecting it. We an see all the four visualisations. If we press the button on screen we move to the next window, we can see all the industries Top figures like market value, Count, Sales and Profits in a coloured and descriptive Pie Chart.
 
-Social Media:
-
-Twitter: <https://twitter.com/CreativeTim>
-
-Facebook: <https://www.facebook.com/CreativeTim>
-
-Dribbble: <https://dribbble.com/creativetim>
-
-Google+: <https://plus.google.com/+CreativetimPage>
-
-Instagram: <https://instagram.com/creativetimofficial>
+Company-wise comparison of Profits & Sales, Assets & Market Value
+Now finally coming to the companies Visualisations, we can see the average sales, average profits, average market values and Average Assets. We can easily see all the figures of the companies by selecting the companies we want to view by using the dashboard on the right. We can also select more than one company for comparison. We can keep on selecting companies to keep on viewing the visualisations.
 
 
-[CHANGELOG]: ./CHANGELOG.md
-[LICENSE]: ./LICENSE.md
-[version-badge]: https://img.shields.io/badge/version-1.4.0-blue.svg
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+
+Creating Website and Embedding Visualisation:
+A website is created by using HTML-CSS scripting. The website contains a sidebar with filters & report, the body of website had tableau visualizations.
+
+Embedding Tableau visualizations to website using Javascript.
+1.	The dashboard or workbook must be published to the Tableau Public Server. 
+2.	You will be navigated to the site where the tableau is published.
+3.	Navigate to the view that you want to publish. On the top right corner, click on ‘Share’ to open the share dialog box. Select and copy the code under ‘Embed code’.
+4.	The source for the script tag is the URL for the UW Tableau Public Server JavaScript file, viz_v1.js. The JavaScript file handles assembling the full URL of the view that’s displayed for your users. The name and site_root object parameters are the only required parameters; all other parameters are optional.
+5.	Insert this code in the code for your webpage.
+
+Conclusion:
+From the Visualization and interactive website, it is very clear to interpret the results. With interactive visualization, we can take the concept a step further by using technology to drill down into charts and graphs for more detail, interactively changing what data you see and how it’s processed. Keeping the company’s Profits, Sales, Assets and Market value in mind its very clear from the visualization that all the top companies are from USA and they have maximum Sales and profits when compared to other countries. We can also conclude by saying that USA is the most industry friendly market in the world.
